@@ -10,7 +10,7 @@ public class Main {
         int yers = years;
         if (yers % 100 == 0 && yers % 400 != 0 || yers % 4 != 0) {
             System.out.println(yers + " год не является високосным");
-        } else if (yers % 100 == 0 && yers % 400 == 0 || yers % 4 == 0) {
+        } else {
             System.out.println(yers + " год  является високосным");
 
         }
@@ -52,7 +52,7 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
-        printYear(2024);
+        printYear(1600);
 
     }
 
